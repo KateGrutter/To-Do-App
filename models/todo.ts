@@ -1,5 +1,7 @@
+import { ObjectId } from "mongodb";
+
 export interface Todo {
-  _id?: string;
+  _id?: ObjectId;
   task: string;
   note?: string;
   completed: boolean;
